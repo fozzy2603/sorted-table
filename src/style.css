@@ -1,0 +1,12 @@
+.table th.active,
+.table th:hover{
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.table tr.active td,
+.table tr:hover td{
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--blue);
+}
